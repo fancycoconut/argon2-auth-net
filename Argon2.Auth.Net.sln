@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{D12E5145-A31C-405C-9B8D-EA8C0FB6B057}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Argon2.Auth.Net.Api", "examples\Argon2.Auth.Net.Api\Argon2.Auth.Net.Api.csproj", "{4E583636-8DDB-43CD-B75D-E172FBDCA042}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Argon2.Auth", "src\Argon2.Auth\Argon2.Auth.csproj", "{5FD49685-3044-4ADF-89A0-98F8951C1122}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Argon2.Auth.Core", "src\Argon2.Auth.Core\Argon2.Auth.Core.csproj", "{EBB4777F-0B32-410A-B9AD-78D62156D617}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Argon2.Auth.Cosmos", "src\Argon2.Auth.Cosmos\Argon2.Auth.Cosmos.csproj", "{B77EA00B-312E-45EA-8912-2119D6DF338A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E583636-8DDB-43CD-B75D-E172FBDCA042}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E583636-8DDB-43CD-B75D-E172FBDCA042}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E583636-8DDB-43CD-B75D-E172FBDCA042}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E583636-8DDB-43CD-B75D-E172FBDCA042}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FD49685-3044-4ADF-89A0-98F8951C1122}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FD49685-3044-4ADF-89A0-98F8951C1122}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FD49685-3044-4ADF-89A0-98F8951C1122}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FD49685-3044-4ADF-89A0-98F8951C1122}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBB4777F-0B32-410A-B9AD-78D62156D617}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBB4777F-0B32-410A-B9AD-78D62156D617}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBB4777F-0B32-410A-B9AD-78D62156D617}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBB4777F-0B32-410A-B9AD-78D62156D617}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B77EA00B-312E-45EA-8912-2119D6DF338A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B77EA00B-312E-45EA-8912-2119D6DF338A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B77EA00B-312E-45EA-8912-2119D6DF338A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B77EA00B-312E-45EA-8912-2119D6DF338A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4E583636-8DDB-43CD-B75D-E172FBDCA042} = {D12E5145-A31C-405C-9B8D-EA8C0FB6B057}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C359D899-121E-4FAC-A65B-1455A99A5152}
+	EndGlobalSection
+EndGlobal
